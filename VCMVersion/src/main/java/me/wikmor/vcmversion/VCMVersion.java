@@ -2,6 +2,14 @@ package me.wikmor.vcmversion;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
+package me.wikmor.vcm;
+
+public interface VCMVersionHook {
+    void enableChatFormatting(boolean enabled);
+    void enableNicknameSupport(boolean enabled);
+    void enablePronounSupport(boolean enabled);
+}
+
 public final class VCMVersion extends JavaPlugin {
 
     @Override
