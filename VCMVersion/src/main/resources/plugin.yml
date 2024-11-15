@@ -1,0 +1,5 @@
+name: VCMVersion
+version: 1.0
+main: me.wikmor.vcmversion.VCMVersion
+api-version: 1.17
+depend: [VCM]
